@@ -43,6 +43,6 @@ if [ "$TARGET_UNIFIED_DEVICE" == "" ] ; then
 fi
 echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
-echo "ro.carbon.device=$CARBON_DEVICE"
+echo "ro.gzokp.device=$GZOKP_DEVICE"
 
 echo "# end build properties"

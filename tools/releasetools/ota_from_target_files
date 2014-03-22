@@ -468,33 +468,19 @@ def WriteFullOTAPackage(input_zip, output_zip):
 
   script.Print("                                        ");
   script.Print("                                        ");
-  script.Print("                 ,....,                 ");
-  script.Print("           .,lx0XNWWWNKOd:.             ");
-  script.Print("        .:OWMMMMMMMMMMMMMMMXo.          ");
-  script.Print("      .oWMMMMMMMMMMMMMMMMMMMMM0,        ");
-  script.Print("     cWMMMMMMMMMMMMMMMMMMMMMMMMMO.      ");
-  script.Print("   .OMMMMMMMMMMMMMMMMMMMMMMMMMMWd.      ");
-  script.Print("  .KMMMMMMMMMKkdlllldkKMMMMMMMO.        ");
-  script.Print("  OMMMM`  x;.          .;xWMX;          ");
-  script.Print(" :MMMM  ..`               .;.           ");
-  script.Print(" KMMM  .o;                              ");
-  script.Print(".MMM  .0M;                              ");
-  script.Print("'MM` .KMMl                              ");
-  script.Print(".MN  xMMM0                              ");
-  script.Print(".NM ,MMMMM:                           ..");
-  script.Print(" dM :MMMMMW'                         .k ");
-  script.Print(" .N cMMMMMMW;                       'Xc ");
-  script.Print("  ,x;MMMMMMMMx.                   .oW0. ");
-  script.Print("   ,.NMMMMMMMMWx'                lNMK.  ");
-  script.Print("     ,NMMMMMMMMMMXx:'.     ..:o ,MMO.   ");
-  script.Print("      .kMMMMMMMMMMMMMMNXXXNMMW  NWl.    ");
-  script.Print("        ,OMMMMMMMMMMMMMMMMMMK  Xd.      ");
-  script.Print("          .oKMMMMMMMMMMMMMKc  :.        ");
-  script.Print("             .:okKNWWWNKdl'  '          ");
-  script.Print("                 ''...`',  +'           ");
-  script.Print("                                        ");
-  script.Print("                                        ");
-
+  script.Print("       ___           ___           ___           ___           __  ");    
+  script.Print("     /\  \         /\  \         /\  \         /\__\         /\  \  ");  
+  script.Print("    /::\  \        \:\  \       /::\  \       /:/  /        /::\  \   ");
+  script.Print("   /:/\:\  \        \:\  \     /:/\:\  \     /:/__/        /:/\:\  \  ");
+  script.Print("  /:/  \:\  \        \:\  \   /:/  \:\  \   /::\__\____   /::\~\:\  \ ");
+  script.Print(" /:/__/_\:\__\ _______\:\__\ /:/__/ \:\__\ /:/\:::::\__\ /:/\:\ \:\__\ ");
+  script.Print(" \:\  /\ \/__/ \::::::::/__/ \:\  \ /:/  / \/_|:|~~|~    \/__\:\/:/  / ");
+  script.Print("  \:\ \:\__\    \:\~~\~~      \:\  /:/  /     |:|  |          \::/  /  ");
+  script.Print("   \:\/:/  /     \:\  \        \:\/:/  /      |:|  |           \/__/   ");
+  script.Print("    \::/  /       \:\__\        \::/  /       |:|  |                   ");
+  script.Print("     \/__/         \/__/         \/__/         \|__|                   ");
+  script.Print("                                                                        ");
+  
   if "selinux_fc" in OPTIONS.info_dict:
     WritePolicyConfig(OPTIONS.info_dict["selinux_fc"], output_zip)
 
